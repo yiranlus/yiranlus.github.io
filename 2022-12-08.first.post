@@ -1,0 +1,14 @@
+;;;;;
+title: My First Post
+tags: first
+date: 2022-12-08 11:57:54
+format: md
+;;;;;
+
+Here is my content. This is my first post.
+
+<!--more-->
+
+Excerpt separator can also be extracted from content.
+Add `excerpt: <string>` to the above metadata.
+Excerpt separator is `<!--more-->` by default.
