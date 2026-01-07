@@ -135,7 +135,7 @@ params:
     enable: true
     intro: "Hi, my name is"
     title: "Yiran."
-    subtitle: "I study computational physics and science behind the data."
+    subtitle: "I study physics and science behind the data."
     content: "I tend to make use of modern technologies to build solutions for computation-intensive applications and algorithms."
     image: /images/hero.svg
     bottomImage:
