@@ -250,6 +250,16 @@ projects:
       links:
         - icon: fab fa-github
           url: https://github.com/yiranlus/clpy
+    - title: Synthetiseur
+      content: Visualisation du signal sonore dans le domaine temporel et fréquentiel.
+      image: /images/projects/Synthetiseur.png
+      badges:
+        - "C++"
+        - "Traitment de Signal"
+        - "OpenFramework"
+      links:
+        - icon: fab fa-github
+          url: https://github.com/yiranlus/Synthetiseur
 
     #- title: Image Converter
     #  content: A web app to convert image to pdf, png to jpg, png to jpg and png to webp without database using django.
