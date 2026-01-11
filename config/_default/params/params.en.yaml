@@ -74,7 +74,7 @@ hero:
   enable: true
   intro: "Hi, my name is"
   title: "Yiran."
-  subtitle: "I study physics and science behind the data."
+  subtitle: "I study physics and the science behind the data."
   content: "I tend to make use of modern technologies to build solutions for computation-intensive applications and algorithms."
   image: /images/me.jpg
   bottomImage:
@@ -104,6 +104,8 @@ about:
   image: "/images/me.jpg"
   content: |-
     I am PhD in Nanophysics. I study electron ptychography, and I study the physics, the mathematics and the algorithms behind it. I have strong interest in computer science, especially the artificial intelligence in recent years. I am taking a training course in Data Science and it will finish soon.
+
+    I speak fluently Chinese and English. My French level is intermediate.
 
     I am currently searching for a job as data scientist, software engineer, or research engineer.
   skills:
@@ -170,6 +172,17 @@ education:
   # title: "Custom Name"
   index: false
   items:
+    - title: "Data Scientist"
+      school:
+        name: "Campus Numérique in the Alps"
+        url: "https://le-campus-numerique.fr/"
+      date: "2025 - 2026"
+      content: |-
+        6 months of intensive training:
+        * Machine Learning & Deep Learning
+        * DevOps, Docker, Spark
+        * Database and SQL
+
     - title: "PhD in Nanophysics"
       school:
         name: "Université Grenoble Alpes"
