@@ -1,0 +1,28 @@
+main:
+  - identifier: blog
+    name: Blog
+    title: Articles du blog
+    url: https://notes.yiranls.cc/share
+    weight: 1
+  #- identifier: gallery
+  #  name: Galerie
+  #  title: Articles du blog
+  #  url: /gallery
+  #  weight: 2
+  #Dropdown menu
+  # - identifier: dropdown
+  #   title: Exemple de menu déroulant
+  #   name: Déroulant
+  #   weight: 3
+  # - identifier: dropdown1
+  #   title: exemple déroulant 1
+  #   name: exemple 1
+  #   url: /#
+  #   parent: dropdown
+  #   weight: 1
+  # - identifier: dropdown2
+  #   title: exemple déroulant 2
+  #   name: exemple 2
+  #   url: /#
+  #   parent: dropdown
+  #   weight: 2

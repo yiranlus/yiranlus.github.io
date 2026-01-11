@@ -1,0 +1,325 @@
+title: "Yiran LU"
+description: Doctorat en Nanophysique, Data Scientist
+# staticPath: ""  # The path to serve the static files from
+favicon: "/fav.png"
+
+# Whether to serve bootstrap css and js files from CDN or not. Can be set to true, "css" or "js" to choose between
+# serving both, only the css, or only the js files through the CDN. Any other value will make so that CDN is not used.
+# Note the lack of "" in true, it should be of boolean type.
+useBootstrapCDN: false
+
+# If you want to load dynamically responsive images from Cloudinary
+# This requires your images to be uploaded + hosted on Cloudinary
+# Uncomment and change YOUR_CLOUD_NAME to the Cloud Name in your Cloudinary console
+# cloudinary_cloud_name: "YOUR_CLOUD_NAME"
+
+# Whether to add mathjax support on all pages. Alternatively, you can opt-in per page by adding `mathjax: true` in the frontmatter.
+mathjax: false
+
+# Whether the fade animations on the home page will be enabled
+animate: true
+
+theme:
+  # disableThemeToggle: true
+  # defaultTheme: "light" # dark
+
+font:
+  fontSize: 1rem # default: 1rem
+  fontWeight: 400 # default: 400
+  lineHeight: 1.5 # default: 1.5
+  textAlign: left # default: left
+
+# color preference
+# When using hex codes for colors, quotations must be used along with the # sign
+# color:
+#   textColor: "#343a40"
+#   secondaryTextColor: "#6c757d"
+#   textLinkColor: "#007bff"
+#   backgroundColor: "#eaedf0"
+#   secondaryBackgroundColor: "#64ffda1a"
+#   primaryColor: "#007bff"
+#   secondaryColor: "#f8f9fa"
+
+#   darkmode:
+#     textColor: "#e4e6eb"
+#     secondaryTextColor: "#b0b3b8"
+#     textLinkColor: "#ffffff"
+#     backgroundColor: "#18191a"
+#     secondaryBackgroundColor: "#212529"
+#     primaryColor: "#ffffff"
+#     secondaryColor: "#212529"
+
+# If you want to customize the menu, you can change it here
+navbar:
+  align: ms-auto # Left: ms-auto | center: mx-auto | right: me-auto | Default: ms-auto
+  # brandLogo: "/logo.png" # Logo for the brand | default is the favicon variable
+  # showBrandLogo: false # Show brand logo in nav bar | default is true
+  brandName: "Yiran LU" # Brand name for the brand | default is the title variable
+  disableSearch: true
+  # searchPlaceholder: "Search"
+  stickyNavBar:
+    enable: true
+    showOnScrollUp: false
+  enableSeparator: true
+  menus:
+    disableAbout: false
+    disableExperience: false
+    disableEducation: false
+    disableProjects: false
+    disableAchievements: true
+    disableContact: false
+
+# Hero
+hero:
+  enable: true
+  intro: "Hi, je m'appelle"
+  title: "Yiran."
+  subtitle: "J'étudie la physique et la science derrière les données."
+  content: "J'utilise les technologies modernes pour construire des solutions destinées aux applications et algorithmes à forte intensité de calcul."
+  image: /images/me.jpg
+  bottomImage:
+    enable: true
+  # roundImage: true # Make hero image circular | default false
+  button:
+    enable: true
+    name: "Resume"
+    url: "/resume_french-v3.0-universelle.pdf"
+    download: true
+    newPage: false
+  socialLinks:
+    fontAwesomeIcons:
+      - icon: fab fa-github
+        url: https://github.com/yiranlus/
+      - icon: fab fa-linkedin
+        url: https://linkedin.com/yiran-lu-66424012a/
+    customIcons:
+      - icon: /icons/en.svg
+        tooltip: "English version"
+        url: /
+
+# About
+about:
+  enable: true
+  title: "À propos"
+  image: "/images/me.jpg"
+  content: |-
+    Je suis titulaire d'un doctorat en nanophysique. J'étudie la ptychographie électronique, ainsi que la physique, les mathématiques et les algorithmes qui la sous-tendent. J'ai un vif intérêt pour l'informatique, en particulier l'intelligence artificielle ces dernières années. Je suis actuellement une formation en science des données (Data Science) qui se terminera bientôt.
+
+    Je recherche actuellement un emploi en tant que data scientist, ingénieur logiciel ou ingénieur de recherche.
+  skills:
+    enable: false
+    title: "Voici quelques technologies avec lesquelles j'ai travaillé récemment :"
+    items:
+      - "Python"
+      - "Common Lisp"
+      - "Nvidia CUDA"
+
+# Experience
+experience:
+  enable: true
+  title: "Expériences"
+  items:
+    - company: "Institut NEEL"
+      companyUrl: "https://neel.cnrs.fr"
+      jobs:
+        - name: "PhD Candidate"
+          date: "nov 2021 - oct 2025"
+          content: |
+            * Conçu et déployé des solutions de calcul haute performance (HPC) utilisant Python et CUDA pour traiter et analyser des ensembles de données de l'ordre du gigaoctet (GB) issues de techniques d'imagerie avancées.
+            * Développé et mis en œuvre des Algorithmes d'Optimisation sophistiqués et des Méthodes Mathématiques personnalisées (y compris des techniques de reconstruction basées sur Fourier) pour la quantification des propriétés des matériaux, en contribuant du code à un progiciel open-source établi.
+            * Établi des stratégies robustes de gouvernance et de gestion des données pour organiser et traiter les données expérimentales, assurant un environnement reproductible et accélérant les cycles d'analyse.
+
+          featuredItems:
+            fontAwesomeIcons:
+              - icon: fa-brands fa-python
+
+    - company: "CEA Grenoble"
+      companyUrl: "https://www.cea.fr/Pages/le-cea/les-centres-cea/grenoble.aspx"
+      jobs:
+        - name: "Stagaire de Recherche"
+          date: "jan 2020 - août 2020"
+          featuredItems:
+            fontAwesomeIcons:
+              - icon: fa-brands fa-python
+              - icon: fa-solid fa-microscope
+                url: https://www.gatan.com/products/tem-analysis/gatan-microscopy-suite-software
+                tooltip: Gatan Digital Micrograph
+          content: |
+            * Optimisation et développement de pipelines de traitement de données à haut débit en utilisant Python (y compris Numba pour la performance), accélérant avec succès les scripts de calcul de minutes à de simples secondes.
+            * Résolution d'erreurs et de bugs mathématiques critiques au sein de logiciels d'analyse hérités, assurant la fiabilité des résultats, tout en concevant des outils d'Analyse Exploratoire des Données (AED) pour une interprétation des données améliorée.
+
+    - company: "Institut Nanotechnologie de Lyon"
+      companyUrl: https://inl.cnrs.fr/
+      jobs:
+        - name: "Stagaire de Recherche"
+          date: "Jan 2020 - Mar 2020"
+          featuredItems:
+            fontAwesomeIcons:
+              - icon: fa-solid fa-calculator
+                url: https://www.mathworks.com/products/matlab.html
+                tooltip: MATLAB
+              - icon: fa-solid fa-magnifying-glass
+                tooltip: Optics
+          content: |
+            * Conception et exécution de l'installation physique d'un chemin optique complexe utilisant un modulateur spatial de lumière pour le façonnage précis du front d'onde.
+            * Utilisation du logiciel de simulation MATLAB pour l'implémentation d'algorithmes complexes (par exemple, méthodes d'optimisation basées sur Fourier) et l'analyse de données pour inspecter les résultats expérimentaux et déterminer les paramètres optimaux du système.
+
+# Education
+education:
+  enable: true
+  title: "Formations"
+  index: false
+  items:
+    - title: "Doctorat en Nanophysique"
+      school:
+        name: "Université Grenoble Alpes"
+        url: "https://www.univ-grenoble-alpes.fr/"
+      date: "2021-2025"
+
+    - title: "Master en Ingénierie à l'Échelle Nanométrique"
+      school:
+        name: "Université Claude-Bernard Lyon 1"
+        url: "https://www.univ-lyon1.fr/"
+      date: "2019 - 2021"
+      #content: |-
+      #  Extracurricular Activities
+      #    - Lorem ipsum dolor sit amet consectetur adipisicing elit.
+      #    - Tempora esse, eaque delectus nulla quo doloribus itaque expedita alias natus optio totam maxime nihil excepturi velit a animi laborum hic similique.
+    - title: "Licence en science des matériaux"
+      school:
+        name: "University of Science and Technology Beijing"
+        url: "https://www.ustb.edu.cn/"
+      date: "2015 - 2019"
+      content: |-
+        Spécialisé en Physique de Materiaux.
+      #featuredLink:
+      #  enable: true
+      #  name: "My academic record"
+      #  url: "https://example.com"
+
+# Achievements
+achievements:
+  enable: false
+  # title: "Custom Name"
+  items:
+    - title: Google kickstart runner
+      content: I solved all problems with optimal solution.
+      url: https://example.com
+      image: /images/achievement.jpg
+    - title: Facebook Hackathon Winner
+      content: Developed a product using Artificial Intelligence.
+      image: /images/achievement.jpg
+    - title: Hugo Profile
+      content: Developed a theme and getting 1K+ downloads per month.
+      url: "https://github.com/gurusabarish/hugo-profile"
+      image: /images/achievement.jpg
+    - title: Microsoft Imagine Runner
+      content: We are developed a product which can help others.
+    - title: Google Summer of Code
+      content: Contributed to a open source project.
+      url: https://example.com
+
+# projects
+projects:
+  enable: true
+  title: "Projets"
+  items:
+    - title: CLPy
+      content: Une interface Common Lisp pour accéder à l'API C de Python.
+      image: /images/projects/clpy.png
+      #featured:
+      #  name: Demo
+      #  link: https://yiranlus.github.io/clpy/
+      badges:
+        - "Common Lisp"
+        - "Python"
+        - "FFI"
+      links:
+        - icon: fab fa-github
+          url: https://github.com/yiranlus/clpy
+
+    #- title: Image Converter
+    #  content: A web app to convert image to pdf, png to jpg, png to jpg and png to webp without database using django.
+    #  image: /images/projects/converter.jpg
+    #  featured:
+    #    name: Demo
+    #    link: https://django-converter.herokuapp.com
+    #  badges:
+    #    - "Django"
+    #    - "Bootstrap"
+    #  links:
+    #    - icon: fab fa-github
+    #      url: https://github.com/gurusabarish/converter
+
+    #- title: Hugo Profile V2
+    #  content: A clean and simple Hugo template for personal portfolio and blog.
+    #  image: /images/projects/profile2.jpg
+    #  featured:
+    #    name: Demo V2
+    #    link: https://hugo-profile-2.netlify.app
+    #  badges:
+    #    - "Hugo"
+    #    - "Bootstrap"
+    #    - "Javascript"
+    #  links:
+    #    - icon: fab fa-github
+    #      url: https://github.com/gurusabarish/HugoProfileV2
+
+#Contact
+contact:
+  enable: true
+  title: "Me Contacter"
+  content: Ma boîte de réception est toujours ouverte. Que vous ayez une question ou que vous souhaitiez simplement dire bonjour, je ferai de mon mieux pour vous répondre !
+  btnName: Écrivez-moi
+  btnLink: mailto:contact@yiranls.cc
+  # formspree:
+  #   enable: true # `contact.email` value will be ignored
+  #   formId: abcdefgh # Take it from your form's endpoint, like 'https://formspree.io/f/abcdefgh'
+  #   emailCaption: "Enter your email address"
+  #   messageCaption: "Enter your message here"
+  #   messageRows: 5
+
+footer:
+  #recentPosts:
+  #  path: "blogs"
+  #  count: 3
+  #  title: Recent Posts
+  #  enable: true
+  #  disableFeaturedImage: false
+  socialNetworks:
+    github: https://github.com/yiranlus/
+    linkedin: https://linkedin.com/yiran-lu-66424012a/
+    #twitter: https://twitter.com
+    #instagram: https://instagram.com
+    #facebook: https://facebook.com
+
+# List pages like blogs and posts
+listPages:
+  disableFeaturedImage: false
+
+# Single pages like blog and post
+singlePages:
+  socialShare: true
+  readTime:
+    enable: true
+    content: "min read"
+  scrollprogress:
+    enable: true
+  tags:
+    openInNewTab: true
+
+# For translations
+terms:
+  read: "Read"
+  toc: "Table Of Contents"
+  copyright: "Tous droits réservés"
+  pageNotFound: "Page not found"
+  emailText: "Check out this site"
+
+datesFormat:
+  article: "Jan 2, 2006"
+  articleList: "Jan 2, 2006"
+  articleRecent: "Jan 2, 2006"
+
+#customScripts: -| # You can add custom scripts which will be added before </body> tag
+#  <script type="text/javascript"><!-- any script here --></script>
