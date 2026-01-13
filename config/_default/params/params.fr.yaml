@@ -253,7 +253,7 @@ projects:
       image: /images/projects/Synthetiseur.png
       badges:
         - "C++"
-        - "Signal Processing"
+        - "Traitement de Signal"
         - "OpenFramework"
       links:
         - icon: fab fa-github
