@@ -101,7 +101,7 @@ hero:
 about:
   enable: true
   title: "About Me"
-  image: "/images/me.jpg"
+  image: "/images/me.png"
   content: |-
     I am PhD in Nanophysics. I study electron ptychography, and I study the physics, the mathematics and the algorithms behind it. I have strong interest in computer science, especially the artificial intelligence in recent years. I am taking a training course in Data Science and it will finish soon.
 

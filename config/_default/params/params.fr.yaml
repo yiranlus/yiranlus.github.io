@@ -101,7 +101,7 @@ hero:
 about:
   enable: true
   title: "À propos"
-  image: "/images/me.jpg"
+  image: "/images/me.png"
   content: |-
     Je suis titulaire d'un doctorat en nanophysique. J'étudie la ptychographie électronique, ainsi que la physique, les mathématiques et les algorithmes qui la sous-tendent. J'ai un vif intérêt pour l'informatique, en particulier l'intelligence artificielle ces dernières années. Je suis actuellement une formation en science des données (Data Science) qui se terminera bientôt.
 
