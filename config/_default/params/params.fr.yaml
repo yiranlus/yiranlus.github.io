@@ -76,7 +76,7 @@ hero:
   title: "Yiran."
   subtitle: "J'étudie la physique et la science des données."
   content: "J'utilise les technologies modernes pour construire des solutions destinées aux applications et algorithmes à forte intensité de calcul."
-  image: /images/me.jpg
+  image: /images/me.png
   bottomImage:
     enable: true
   # roundImage: true # Make hero image circular | default false
