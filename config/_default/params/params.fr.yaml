@@ -292,7 +292,7 @@ contact:
   title: "Pour me contacter"
   content: Ma boîte de réception est toujours ouverte. Que vous ayez une question ou que vous souhaitiez simplement me dire bonjour, je ferai de mon mieux pour vous répondre !
   btnName: Écrivez-moi
-  btnLink: mailto:contact@yiranls.cc
+  btnLink: mailto:me@yiranls.cc
   # formspree:
   #   enable: true # `contact.email` value will be ignored
   #   formId: abcdefgh # Take it from your form's endpoint, like 'https://formspree.io/f/abcdefgh'
