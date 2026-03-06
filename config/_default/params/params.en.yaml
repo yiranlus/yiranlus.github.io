@@ -83,7 +83,7 @@ hero:
   button:
     enable: true
     name: "Resume"
-    url: "/resume_english-v3.0-universelle.pdf"
+    url: "/resume_english.pdf"
     download: true
     newPage: false
   socialLinks:
