@@ -269,6 +269,15 @@ projects:
       links:
         - icon: fab fa-github
           url: https://github.com/yiranlus/trilium-typst-preview
+    - title: Trilium Antidote
+      content: Antidote integration for Trilium Notes
+      image: /images/projects/trilium-antidote.png
+      badges:
+        - "Javascript"
+        - "ReactJS"
+      links:
+        - icon: fab fa-github
+          url: https://github.com/yiranlus/trilium-antidote
 
     #- title: Image Converter
     #  content: A web app to convert image to pdf, png to jpg, png to jpg and png to webp without database using django.
