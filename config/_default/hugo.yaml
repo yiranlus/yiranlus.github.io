@@ -32,3 +32,13 @@ caches:
   images:
     dir: ":cacheDir/images"
 
+defaultContentLanguage: "en"
+defaultContentLanguageInSubdir: false
+
+languages:
+  en:
+    languageName: "English"
+    weight: 1
+  fr:
+    languageName: "Français"
+    weight: 2
